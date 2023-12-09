@@ -49,7 +49,7 @@ module.exports.search = (req, res) => {
                 },
                 $maxDistance: 500 * 1000,
             }
-
+ 
         }
     })
         .then((results) => {
