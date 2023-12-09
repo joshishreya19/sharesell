@@ -41,7 +41,7 @@ function Login() {
                     }} />
                 <br></br>
                 PASSWORD
-                <input className="form-control" type="text" value={password}
+                <input className="form-control" type="password" value={password}
                     onChange={(e) => {
                         setpassword(e.target.value)
                     }} />
